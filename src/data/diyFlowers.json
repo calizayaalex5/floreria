@@ -1,0 +1,7 @@
+[
+    { "id": 101, "name": "Red Rose", "price": 1200, "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
+    { "id": 102, "name": "White Daisy", "price": 700, "image": "https://images.unsplash.com/photo-1524412529635-a258f7a35166" },
+    { "id": 103, "name": "Sunflower", "price": 1500, "image": "https://images.unsplash.com/photo-1508747703725-719777637510" },
+    { "id": 104, "name": "Lavender", "price": 900, "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6" },
+    { "id": 105, "name": "Pink Tulip", "price": 1100, "image": "https://images.unsplash.com/photo-1522336572468-97b06e8ef143" }
+]

@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — FlorArte</title>
+</head>
+
 <body data-page="support">
+
+    <div id="header"></div>
+
+    <main class="support-wrapper">
+
+        <!-- ===========================
+             HERO / INTRO
+        ============================ -->
+        <section class="support-hero">
+            <h1>How can we help you? 💐</h1>
+            <p>We're here to assist you with orders, custom bouquets, and more.</p>
+        </section>
+
+        <!-- ===========================
+             SUPPORT CONTACT FORM
+        ============================ -->
+        <section class="support-section">
+            <h2>Contact Support</h2>
+
+            <form id="support-form" class="support-form">
+
+                <label for="sup-name">Your Name</label>
+                <input type="text" id="sup-name" required>
+
+                <label for="sup-email">Email</label>
+                <input type="email" id="sup-email" required>
+
+                <label for="sup-topic">Topic</label>
+                <select id="sup-topic">
+                    <option>Order Issue</option>
+                    <option>Custom Bouquet</option>
+                    <option>Delivery Concern</option>
+                    <option>General Question</option>
+                </select>
+
+                <label for="sup-message">Message</label>
+                <textarea id="sup-message" rows="5" required></textarea>
+
+                <button class="support-btn" type="submit">Send Message</button>
+            </form>
+        </section>
+
+
+        <!-- ===========================
+             FAQ — Accordion
+        ============================ -->
+        <section class="support-section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <button class="faq-question">📦 How long does delivery take?</button>
+                <div class="faq-answer">
+                    <p>Most orders are delivered within 24–48 hours. Custom bouquets may take extra time.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">💐 Can I change my bouquet after ordering?</button>
+                <div class="faq-answer">
+                    <p>Yes! You can modify your order within the first hour after placing it.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">💳 What payment methods do you accept?</button>
+                <div class="faq-answer">
+                    <p>We accept debit, credit, and online bank transfers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">📞 How do I contact support?</button>
+                <div class="faq-answer">
+                    <p>You can reach us via email at support@florarte.com or through the form above.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>

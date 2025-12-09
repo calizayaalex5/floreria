@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Rose Bouquet",
+    "price": 15000,
+    "description": "A romantic bouquet crafted with Rosa chinensis, known for its timeless elegance.",
+    "image": "https://perenual.com/storage/species_image/1769_rosa_chinensis.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Lavender Dream",
+    "price": 14000,
+    "description": "A calming arrangement featuring Lavandula angustifolia, perfect for relaxation.",
+    "image": "https://perenual.com/storage/species_image/1039_lavandula_angustifolia.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sunflower Surprise",
+    "price": 18000,
+    "description": "Bright and cheerful, made with Helianthus annuus to bring sunshine into any room.",
+    "image": "https://perenual.com/storage/species_image/1101_helianthus_annuus.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tulip Arrangement",
+    "price": 12000,
+    "description": "A delicate bouquet of Tulipa gesneriana, vibrant and full of color.",
+    "image": "https://perenual.com/storage/species_image/193_tulipa_gesneriana.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Peony Elegance",
+    "price": 22000,
+    "description": "Luxurious arrangement featuring Paeonia lactiflora and its iconic lush petals.",
+    "image": "https://perenual.com/storage/species_image/161_paeonia_lactiflora.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Orchid Grace",
+    "price": 25000,
+    "description": "Elegant and exotic — crafted using Phalaenopsis aphrodite orchids.",
+    "image": "https://perenual.com/storage/species_image/577_phalaenopsis_aphrodite.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hydrangea Harmony",
+    "price": 16000,
+    "description": "A bouquet full of volume, using Hydrangea macrophylla blooms.",
+    "image": "https://perenual.com/storage/species_image/1197_hydrangea_macrophylla.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dahlia Passion",
+    "price": 17000,
+    "description": "Stunning arrangement with Dahlia pinnata, combining color and elegance.",
+    "image": "https://perenual.com/storage/species_image/380_dahlia_pinnata.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Cherry Blossom Touch",
+    "price": 20000,
+    "description": "Soft and dreamy bouquet inspired by Prunus serrulata blossoms.",
+    "image": "https://perenual.com/storage/species_image/1455_prunus_serrulata.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Camellia Charm",
+    "price": 15500,
+    "description": "A graceful floral arrangement starring Camellia japonica blooms.",
+    "image": "https://perenual.com/storage/species_image/299_camellia_japonica.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Hibiscus Romance",
+    "price": 14500,
+    "description": "A tropical and vibrant bouquet featuring Hibiscus rosa-sinensis petals.",
+    "image": "https://perenual.com/storage/species_image/1124_hibiscus_rosa_sinensis.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Gardenia Bliss",
+    "price": 17500,
+    "description": "A delightfully fragrant bouquet made with Gardenia jasminoides.",
+    "image": "https://perenual.com/storage/species_image/1073_gardenia_jasminoides.jpg"
+  }
+]

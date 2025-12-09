@@ -1,1 +1,53 @@
 <body data-page="diy">
+    <div id="header"></div>
+
+    <main class="diy-wrapper">
+        <h1>Create Your Own Bouquet</h1>
+
+        <!-- Flowers list -->
+        <section class="diy-list-section">
+            <h2>Select Flowers</h2>
+            <div id="diy-flowers" class="diy-flowers-grid"></div>
+        </section>
+
+        <!-- Summary / Mini-cart -->
+        <section class="diy-summary">
+            <h2>Your Bouquet</h2>
+            <div id="diy-cart" class="diy-cart-box"></div>
+
+            <div class="diy-total-box">
+                <p>Total: <span id="diy-total"></span></p>
+                <button id="diy-add-to-cart" class="btn-add-cart">Add Bouquet to Cart</button>
+            </div>
+        </section>
+
+        <section class="diy-options">
+            <h2>Customize Your Bouquet</h2>
+
+            <div class="diy-option-group">
+                <label for="diy-color">Bouquet Color:</label>
+                <select id="diy-color">
+                    <option value="Soft Pink">Soft Pink</option>
+                    <option value="Classic White">Classic White</option>
+                    <option value="Bright Yellow">Bright Yellow</option>
+                    <option value="Elegant Red">Elegant Red</option>
+                </select>
+            </div>
+
+            <div class="diy-option-group">
+                <label for="diy-style">Bouquet Style:</label>
+                <select id="diy-style">
+                    <option value="Minimalist">Minimalist</option>
+                    <option value="Romantic">Romantic</option>
+                    <option value="Wild">Wild</option>
+                    <option value="Premium">Premium</option>
+                </select>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>

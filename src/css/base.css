@@ -1,0 +1,61 @@
+:root {
+    /* 🎨 PRIMARY COLORS */
+    --primary-burgundy: #8B1E3F;
+    --primary-burgundy-dark: #5E142A;
+    --primary-rose: #D96C8E;
+    --primary-rose-light: #F4B7C9;
+
+    /* 🌿 SECONDARY COLORS */
+    --secondary-cream: #FFF4E8;
+    --secondary-peach: #F7D4C6;
+    --secondary-sage: #D9E2D0;
+
+    /* 🌸 ACCENT COLORS */
+    --accent-gold: #E2B66D;
+    --accent-soft-pink: #FCE3EC;
+    --accent-green: #92A88C;
+
+    /* 🔣 TEXT COLORS */
+    --text-dark: #3B2F2F;
+    --text-light: #6A5A5A;
+    --text-white: #FFFFFF;
+
+    /* 🌑 BACKGROUND */
+    --bg-main: #FFFDFB;
+    --bg-light: #FEF6F3;
+    --bg-card: #FFFFFF;
+
+    /* ✨ SHADOWS */
+    --shadow-soft: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-medium: 0 4px 12px rgba(0,0,0,0.12);
+
+    /* 🟣 BORDER RADIUS */
+    --radius-small: 6px;
+    --radius-medium: 10px;
+    --radius-large: 16px;
+
+    /* 📏 SPACING SYSTEM */
+    --space-1: .25rem;
+    --space-2: .5rem;
+    --space-3: .75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+
+    /* 🔤 FONTS */
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--bg-main);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary-burgundy);
+}

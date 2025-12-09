@@ -1,0 +1,60 @@
+<body data-page="checkout">
+    <div id="header"></div>
+
+    <main class="checkout-page">
+
+        <h1 class="checkout-title">Checkout</h1>
+
+        <section class="checkout-container">
+
+            <!-- LEFT — CLIENT FORM -->
+            <form id="checkout-form" class="checkout-form">
+                <h2>Customer Information</h2>
+
+                <label>
+                    Full Name
+                    <input type="text" id="client-name" required />
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" id="client-email" required />
+                </label>
+
+                <label>
+                    Address
+                    <input type="text" id="client-address" required />
+                </label>
+
+                <label>
+                    Payment Method
+                    <select id="payment-method" required>
+                        <option value="card">Credit / Debit Card</option>
+                        <option value="transfer">Bank Transfer</option>
+                        <option value="cash">Cash on Delivery</option>
+                    </select>
+                </label>
+
+                <button type="submit" class="btn-checkout">Place Order</button>
+            </form>
+
+            <!-- RIGHT — ORDER SUMMARY -->
+            <aside class="checkout-summary">
+                <h2>Your Order</h2>
+
+                <div id="summary-items"></div>
+
+                <div class="summary-total">
+                    <span>Total:</span>
+                    <strong id="summary-total-value">$0</strong>
+                </div>
+            </aside>
+
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>

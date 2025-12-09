@@ -1,12 +1,94 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>floreria</title>
-  </head>
-  <body data-page="home">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FlorArte — Craft Your Own Beauty</title>
+</head>
 
-  </body>
+<body data-page="home">
+
+    <div id="header"></div>
+
+    <main class="home-wrapper">
+
+        <!-- =======================
+             SECTION 2 — HERO
+        ======================== -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Create Something Beautiful Today</h1>
+                <p>Craft your own bouquet using our premium flowers.</p>
+                <a href="/diy.html" class="btn-primary">Start Creating</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://perenual.com/storage/species_image/2_abies_alba_pyramidalis/medium/49255769768_df55596553_b.jpg" alt="Flowers">
+            </div>
+        </section>
+
+
+        <!-- =======================
+             SECTION 3 — ABOUT / OBJECTIVE
+        ======================== -->
+        <section class="about">
+            <h2>OUR OBJECTIVE</h2>
+            <p>
+                We help people express their creativity through custom floral arrangements.
+                At FlorArte we believe everyone can design something beautiful with their own hands.
+            </p>
+
+            <a href="/support.html" class="btn-dark">About Us</a>
+        </section>
+
+
+        <!-- =======================
+             SECTION 4 — FEATURED PRODUCTS
+        ======================== -->
+        <section class="featured">
+            <h2>FEATURED PRODUCTS</h2>
+
+            <div id="featured-products" class="featured-grid">
+                <!-- JS will inject 3–4 cards from Perenual API -->
+            </div>
+        </section>
+
+
+        <!-- =======================
+             SECTION 5 — TESTIMONIAL / SLIDER
+        ======================== -->
+        <section class="testimonials">
+            <h2 class="section-title">What Our Clients Say</h2>
+
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"FlorArte made my anniversary unforgettable. The bouquet was stunning!"</p>
+                    <span>— Camila R.</span>
+                </div>
+
+                <div class="testimonial">
+                    <p>"Amazing quality and fast delivery. Highly recommended!"</p>
+                    <span>— Diego M.</span>
+                </div>
+
+                <div class="testimonial">
+                    <p>"The custom bouquet option is a game-changer. Loved the result!"</p>
+                    <span>— Valentina S.</span>
+                </div>
+            </div>
+
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+
+</body>
 </html>

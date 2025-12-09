@@ -1,1 +1,31 @@
 <body data-page="product">
+    <div id="header"></div>
+
+    <main class="product-page">
+        
+        <section class="product-container" id="product-details">
+
+            <div class="product-image-box">
+                <img id="product-img" class="product-img-large" />
+            </div>
+
+            <div class="product-info">
+                <h1 id="product-title" class="product-title"></h1>
+                <p id="product-price" class="product-price"></p>
+                <p id="product-desc" class="product-description"></p>
+
+                <button id="add-to-cart" class="btn-add-cart">Add to Cart</button>
+            </div>
+
+        </section>
+
+        <section class="related-section">
+            <h2 class="related-title">Related Products</h2>
+            <div id="related-products" class="catalog-grid"></div>
+        </section>
+
+    </main>
+
+    <div id="footer"></div>
+    <script type="module" src="/src/main.js"></script>
+</body>

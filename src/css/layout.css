@@ -1,0 +1,200 @@
+/* ==========================================
+   HEADER — FLORARTE STYLE
+========================================== */
+.site-header {
+    background: var(--bg-light);
+    box-shadow: var(--shadow-soft);
+    padding: .8rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 var(--space-4);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--primary-burgundy);
+    text-decoration: none;
+}
+
+/* DESKTOP NAV */
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    transition: color .2s;
+}
+
+.nav-links a:hover {
+    color: var(--primary-burgundy);
+}
+
+/* CART */
+.cart-link {
+    position: relative;
+    text-decoration: none;
+    color: var(--primary-burgundy);
+    font-size: 1.5rem;
+}
+
+#cart-badge {
+    background: var(--primary-burgundy);
+    color: white;
+
+    border-radius: 50%;
+    padding: 2px 6px;
+
+    position: absolute;
+    top: -8px;
+    right: -12px;
+
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+/* HAMBURGER BUTTON (MOBILE) */
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none; /* hidden on desktop */
+}
+
+/* MOBILE NAV */
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    background: var(--bg-light);
+
+    box-shadow: var(--shadow-medium);
+
+    padding: 1rem;
+
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+
+    border-radius: var(--radius-medium);
+}
+
+.mobile-nav a {
+    padding: .7rem 0;
+    color: var(--text-dark);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mobile-nav a:hover {
+    color: var(--primary-burgundy);
+}
+
+/* RESPONSIVE */
+@media (max-width: 760px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+}
+
+/* ============================
+   FOOTER — FLORARTE STYLE 🌸
+============================ */
+
+.site-footer {
+    background: var(--secondary-cream);
+    padding: var(--space-5) var(--space-4);
+    margin-top: var(--space-6);
+    border-top: 3px solid var(--primary-rose);
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2.5rem;
+}
+
+.footer-logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--primary-burgundy);
+}
+
+.footer-slogan {
+    margin-top: .3rem;
+    color: var(--text-light);
+    font-size: .95rem;
+}
+
+/* LINKS */
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 1.2rem;
+    color: var(--primary-burgundy);
+    margin-bottom: .5rem;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: .3rem;
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-burgundy);
+}
+
+/* CONTACT */
+.footer-contact p {
+    margin: .2rem 0;
+    color: var(--text-light);
+}
+
+/* SOCIAL */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    transition: transform .2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: .9rem;
+    color: var(--text-light);
+}
