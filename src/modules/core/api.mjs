@@ -43,7 +43,7 @@ export async function getProductById(id) {
 // DIY — Flores por unidad
 // ===========================
 export async function getDIYFlowers() {
-    const res = await fetch("/src/data/diyFlowers.json");
+    const res = await fetch("/data/diyFlowers.json");
     return res.json();
 }
 
